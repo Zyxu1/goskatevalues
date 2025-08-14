@@ -92,7 +92,7 @@ header {
 }
 
 .card h2 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin: 10px 0 5px;
 }
 
@@ -106,4 +106,13 @@ header {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
+}
+
+#top-message-bar {
+  background-color: #d10000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
