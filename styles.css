@@ -6,15 +6,13 @@
 }
 
 header {
-  padding: 1rem 20px; /* horizontal padding for spacing from edges */
+  padding: 1rem;
   background: #222;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  height: 50px; /* fixed header height */
-  position: relative;
 }
 
 .search-container {
@@ -25,7 +23,6 @@ header {
   gap: 10px;
   max-width: 600px;
   margin: 0 auto;
-  height: 100%; /* fill header height */
 }
 
 #search {
@@ -35,9 +32,6 @@ header {
   background: #333;
   color: #fff;
   width: 60%;
-  height: 35px; /* fixed height */
-  text-align: center; /* center text */
-  font-size: 1rem;
 }
 
 #search::placeholder {
@@ -50,11 +44,6 @@ header {
   background: #333;
   color: #fff;
   border: none;
-  height: 35px; /* fixed height */
-  text-align: center; /* center text */
-  font-size: 1rem;
-
-  /* Custom dropdown arrow */
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -72,11 +61,10 @@ header {
 }
 
 .logo {
-  height: 100%; /* fill the entire header height */
-  width: auto;  /* keep aspect ratio */
-  object-fit: contain;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
   border-radius: 6px;
-  margin-left: 20px; /* spacing from search container */
 }
 
 .gallery {
