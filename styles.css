@@ -19,7 +19,7 @@ header {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* More consistent card width */
   gap: 15px;
   padding: 15px;
 }
@@ -30,11 +30,17 @@ header {
   overflow: hidden;
   text-align: center;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px; /* Fixed card height for uniformity */
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;      /* Force square */
+  object-fit: cover;        /* Crop image to fill square */
+  border-radius: 6px;
 }
 
 .card h2 {
