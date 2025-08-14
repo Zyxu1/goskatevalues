@@ -78,3 +78,14 @@ searchInput.addEventListener('input', updateDisplay);
 
 // Initial load
 loadItems();
+
+// Load top message from message.txt and show/hide bar
+fetch('message.txt')
+  .then(response => response.text())
+  .then(text => {
+    const bar = document.getElementById('top-message-bar');
+    if (text.trim() !== '') {
+      bar.textContent = text;
+      bar.style.display = 'block';
+    }
+  });
