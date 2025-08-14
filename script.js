@@ -51,7 +51,14 @@ function filterItemsBySearch(query) {
 function updateDisplay() {
   const query = searchInput.value.trim().toLowerCase();
   const sorted = sortItems(sortSelect.value);
-  const filtered = query ? sorted.filter(item => item.name.toLowerCase().includes(query)) : sorted;
+
+  const filtered = query
+    ? sorted.filter(item => {
+        const combined = `${item.name} ${item.source}`.toLowerCase();
+        return combined.includes(query);
+      })
+    : sorted;
+
   renderItems(filtered);
 }
 
