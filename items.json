@@ -85,25 +85,25 @@
   },
   {
     "name": "Death Squad",
-    "image": "images/no_image.png",
+    "image": "images/deathsquad.png",
     "value": 1000,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "Pink Tie Dye",
-    "image": "images/no_image.png",
+    "image": "images/pinktiedye.png",
     "value": 1600,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "Bug Webbed",
-    "image": "images/no_image.png",
+    "image": "images/bugweb.png",
     "value": 1500,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "Cherry Blues",
-    "image": "images/no_image.png",
+    "image": "images/cherryblues.png",
     "value": 1000,
     "source": "Printshop (1st Collection)"
   },
@@ -163,7 +163,7 @@
   },
   {
     "name": "Violet Inkblot",
-    "image": "images/no_image.png",
+    "image": "images/violetink.png",
     "value": 500,
     "source": "Greenhouse (1st Collection)"
   },
@@ -193,7 +193,7 @@
   },
   {
     "name": "Catz",
-    "image": "images/no_image.png",
+    "image": "images/catz.png",
     "value": 1000,
     "source": "Greenhouse (1st Collection)"
   },
@@ -205,13 +205,13 @@
   },
   {
     "name": "Purple Hollows",
-    "image": "images/no_image.png",
+    "image": "images/purplehollows.png",
     "value": 1000,
     "source": "Greenhouse (1st Collection)"
   },
   {
     "name": "Deals",
-    "image": "images/no_image.png",
+    "image": "images/deals.png",
     "value": 1000,
     "source": "Greenhouse (1st Collection)"
   },
@@ -253,7 +253,7 @@
   },
   {
     "name": "Stacked",
-    "image": "images/no_image.png",
+    "image": "images/stacked.png",
     "value": 120,
     "source": "Paxk (1st Collection)"
   },
@@ -277,13 +277,13 @@
   },
   {
     "name": "Amaranth",
-    "image": "images/no_image.png",
+    "image": "images/amaranth.png",
     "value": 200,
     "source": "Paxk (1st Collection)"
   },
   {
     "name": "Blue Flamez",
-    "image": "images/no_image.png",
+    "image": "images/blueflamez.png",
     "value": 200,
     "source": "Paxk (1st Collection)"
   },
@@ -301,19 +301,19 @@
   },
   {
     "name": "Warped Dance",
-    "image": "images/no_image.png",
+    "image": "images/warpeddance.png",
     "value": 550,
     "source": "Paxk (1st Collection)"
   },
   {
     "name": "Deadly",
-    "image": "images/no_image.png",
+    "image": "images/deadly.png",
     "value": 550,
     "source": "Paxk (1st Collection)"
   },
   {
     "name": "Daisies",
-    "image": "images/no_image.png",
+    "image": "images/daisies.png",
     "value": 550,
     "source": "Paxk (1st Collection)"
   },
@@ -385,13 +385,13 @@
   },
   {
     "name": "Red Camo",
-    "image": "images/no_image.png",
+    "image": "images/redcamo.png",
     "value": 200,
     "source": "Printshop (2nd Collection)"
   },
   {
     "name": "Star",
-    "image": "images/no_image.png",
+    "image": "images/starr.png",
     "value": 125,
     "source": "Printshop (2nd Collection)"
   },
@@ -409,25 +409,25 @@
   },
   {
     "name": "BirdBolt",
-    "image": "images/no_image.png",
+    "image": "images/birdbolt.png",
     "value": 550,
     "source": "Printshop (2nd Collection)"
   },
   {
     "name": "Barbed",
-    "image": "images/no_image.png",
+    "image": "images/barbed.png",
     "value": 550,
     "source": "Printshop (2nd Collection)"
   },
   {
     "name": "Red Basics",
-    "image": "images/no_image.png",
+    "image": "images/redbasics.png",
     "value": 550,
     "source": "Printshop (2nd Collection)"
   },
   {
     "name": "Black and Blue",
-    "image": "images/no_image.png",
+    "image": "images/blackandblue.png",
     "value": 600,
     "source": "Printshop (2nd Collection)"
   },
@@ -463,25 +463,25 @@
   },
   {
     "name": "Tunes",
-    "image": "images/no_image.png",
+    "image": "images/tunes.png",
     "value": 750,
     "source": "1st Item Drop"
   },
   {
     "name": "Leafy",
-    "image": "images/no_image.png",
+    "image": "images/leafy.png",
     "value": 750,
     "source": "1st Item Drop"
   },
   {
     "name": "The News",
-    "image": "images/no_image.png",
+    "image": "images/thenews.png",
     "value": 800,
     "source": "1st Item Drop"
   },
   {
     "name": "Dancing",
-    "image": "images/no_image.png",
+    "image": "images/dancing.png",
     "value": 1000,
     "source": "1st Item Drop"
   },
@@ -529,7 +529,7 @@
   },
   {
     "name": "Metro",
-    "image": "images/no_image.png",
+    "image": "images/metro.png",
     "value": 800,
     "source": "2nd Item Drop"
   },
