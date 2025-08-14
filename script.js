@@ -14,18 +14,22 @@ async function loadItems() {
   updateDisplay(); // Applies default sort and renders items
 }
 
-
 // Render cards
 function renderItems(data) {
   gallery.innerHTML = '';
   data.forEach(item => {
+    const isNumeric = !isNaN(item.value) && !/[a-zA-Z]/.test(item.value);
+    const priceDisplay = isNumeric
+      ? `$${Number(item.value).toLocaleString()}`
+      : item.value;
+
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
       <img src="${item.image}" alt="${item.name}">
       <h2>${item.name}</h2>
       <p class="source">${item.source}</p>
-      <p class="price">$${item.value.toLocaleString()}</p>
+      <p class="price">${priceDisplay}</p>
     `;
     gallery.appendChild(card);
   });
@@ -36,20 +40,21 @@ function sortItems(method) {
   let sorted = [...items];
   switch (method) {
     case 'value-desc':
-      sorted.sort((a, b) => b.value - a.value);
+      sorted.sort((a, b) => {
+        const valA = isNaN(a.value) ? 0 : Number(a.value);
+        const valB = isNaN(b.value) ? 0 : Number(b.value);
+        return valB - valA;
+      });
       break;
     case 'value-asc':
-      sorted.sort((a, b) => a.value - b.value);
+      sorted.sort((a, b) => {
+        const valA = isNaN(a.value) ? 0 : Number(a.value);
+        const valB = isNaN(b.value) ? 0 : Number(b.value);
+        return valA - valB;
+      });
       break;
   }
   return sorted;
-}
-
-// Filter items by search query
-function filterItemsBySearch(query) {
-  return items.filter(item =>
-    item.name.toLowerCase().includes(query.toLowerCase())
-  );
 }
 
 // Update display based on sort and search

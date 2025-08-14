@@ -536,25 +536,25 @@
   {
     "name": "Dom's Deck",
     "image": "images/no_image.png",
-    "value": 0,
+    "value": "x",
     "source": "Special Item"
   },
   {
     "name": "Dom's Wheels",
     "image": "images/no_image.png",
-    "value": 0,
+    "value": "x",
     "source": "Special Item"
   },
   {
     "name": "Switch's Deck",
     "image": "images/no_image.png",
-    "value": 0,
+    "value": "x",
     "source": "Special Item"
   },
   {
     "name": "Switch's Grip",
     "image": "images/no_image.png",
-    "value": 0,
+    "value": "x",
     "source": "Special Item"
   }
 ]
