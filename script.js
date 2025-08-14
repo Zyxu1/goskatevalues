@@ -17,13 +17,13 @@ function renderItems(data) {
     card.innerHTML = `
       <img src="${item.image}" alt="${item.name}">
       <h2>${item.name}</h2>
-      <p>Value: $${item.value.toLocaleString()}</p>
-      <p>Source: ${item.source}</p>
-      <p>Drop: ${item.drop}</p>
+      <p class="source">${item.source}</p>
+      <p class="price">$${item.value.toLocaleString()}</p>
     `;
     gallery.appendChild(card);
   });
 }
+
 
 function sortItems(method) {
   let sorted = [...items];
