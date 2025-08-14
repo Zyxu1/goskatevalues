@@ -44,5 +44,5 @@ sortSelect.addEventListener('change', () => {
   renderItems(sortItems(sortSelect.value));
 });
 
-// Load on start
+// Load items on page load
 loadItems();
