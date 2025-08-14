@@ -1,14 +1,15 @@
 ﻿let items = [];
 const gallery = document.getElementById('gallery');
 const sortSelect = document.getElementById('sort');
-const dropFilter = document.getElementById('dropFilter');
 
+// Load items from JSON
 async function loadItems() {
   const res = await fetch('items.json');
   items = await res.json();
   renderItems(items);
 }
 
+// Render cards
 function renderItems(data) {
   gallery.innerHTML = '';
   data.forEach(item => {
@@ -24,7 +25,7 @@ function renderItems(data) {
   });
 }
 
-
+// Sort logic
 function sortItems(method) {
   let sorted = [...items];
   switch (method) {
@@ -34,29 +35,14 @@ function sortItems(method) {
     case 'value-asc':
       sorted.sort((a, b) => a.value - b.value);
       break;
-    case 'newest':
-      sorted.sort((a, b) => new Date(b.date) - new Date(a.date));
-      break;
-    case 'oldest':
-      sorted.sort((a, b) => new Date(a.date) - new Date(b.date));
-      break;
   }
   return sorted;
 }
 
-function filterItems(drop) {
-  if (drop === 'all') return items;
-  return items.filter(i => i.drop === parseInt(drop));
-}
-
+// Event listener for sorting
 sortSelect.addEventListener('change', () => {
-  const drop = dropFilter.value;
-  renderItems(sortItems(sortSelect.value).filter(i => drop === 'all' || i.drop === parseInt(drop)));
+  renderItems(sortItems(sortSelect.value));
 });
 
-dropFilter.addEventListener('change', () => {
-  const sorted = sortItems(sortSelect.value);
-  renderItems(filterItems(dropFilter.value).sort((a, b) => sorted.indexOf(a) - sorted.indexOf(b)));
-});
-
+// Load on start
 loadItems();

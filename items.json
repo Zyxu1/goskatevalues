@@ -3,16 +3,12 @@
     "name": "Bees",
     "image": "images/bees.png",
     "value": 15,
-    "source": "Paxx (1st Collection)",
-    "drop": 1,
-    "date": "2024-08-01"
+    "source": "Paxk (1st Collection)",
   },
   {
     "name": "Wicked",
     "image": "images/wicked.png",
     "value": 25000,
     "source": "Printshop (2nd Collection)",
-    "drop": 2,
-    "date": "2024-08-12"
   }
 ]
