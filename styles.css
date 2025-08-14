@@ -18,7 +18,8 @@
   left: 0;          /* Full width */
   width: 100%;      /* Ensure full width */
   z-index: 1000;    /* Stay on top */
-  margin: 0;        /* Ensure no margin around the bar */
+  margin: 0;        /* Remove margin */
+  padding-bottom: 0; /* Remove any bottom padding */
 }
 
 /* Fixed search bar */
@@ -31,11 +32,12 @@ header {
   flex-wrap: wrap;
   gap: 1rem;
   position: fixed;  /* Fix the header position */
-  top: 50px;        /* Correct space between bars */
+  top: 50px;        /* Space it below the red bar */
   left: 0;
   width: 100%;
   z-index: 999;     /* Just below the message bar */
-  margin: 0;        /* Ensure no margin around the header */
+  margin: 0;        /* Remove margin */
+  padding-top: 0;   /* Remove any top padding */
 }
 
 .search-container {
