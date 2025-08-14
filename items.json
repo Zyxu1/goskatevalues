@@ -13,7 +13,7 @@
   },
   {
     "name": "Lowkey",
-    "image": "images/no_image.png",
+    "image": "images/lowkey.png",
     "value": 75,
     "source": "Printshop (1st Collection)"
   },
@@ -37,13 +37,13 @@
   },
   {
     "name": "Yellow Strip",
-    "image": "images/no_image.png",
-    "value": 150,
+    "image": "images/yellowstrip.png",
+    "value": 160,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "Bug Purples",
-    "image": "images/no_image.png",
+    "image": "images/bugpurples.png",
     "value": 150,
     "source": "Printshop (1st Collection)"
   },
@@ -55,19 +55,19 @@
   },
   {
     "name": "Green Calx",
-    "image": "images/no_image.png",
+    "image": "images/greencalx.png",
     "value": 400,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "Twins",
-    "image": "images/no_image.png",
+    "image": "images/twins.png",
     "value": 500,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "God Dog",
-    "image": "images/no_image.png",
+    "image": "images/goddog.png",
     "value": 450,
     "source": "Printshop (1st Collection)"
   },
@@ -121,7 +121,7 @@
   },
   {
     "name": "Grained",
-    "image": "images/no_image.png",
+    "image": "images/grained.png",
     "value": 75,
     "source": "Greenhouse (1st Collection)"
   },
@@ -289,7 +289,7 @@
   },
   {
     "name": "Faded",
-    "image": "images/no_image.png",
+    "image": "images/faded.png",
     "value": 125,
     "source": "Paxk (1st Collection)"
   },
@@ -319,7 +319,7 @@
   },
   {
     "name": "Leopard",
-    "image": "images/Leopard.png",
+    "image": "images/leopard.png",
     "value": 550,
     "source": "Paxk (1st Collection)"
   },
@@ -439,13 +439,13 @@
   },
   {
     "name": "Washed",
-    "image": "images/no_image.png",
+    "image": "images/washed.png",
     "value": 300,
     "source": "1st Item Drop"
   },
   {
     "name": "Gazed",
-    "image": "images/no_image.png",
+    "image": "images/gazed.png",
     "value": 500,
     "source": "1st Item Drop"
   },
@@ -505,7 +505,7 @@
   },
   {
     "name": "Binary Star",
-    "image": "images/no_image.png",
+    "image": "images/binarystar.png",
     "value": 450,
     "source": "2nd Item Drop"
   },
@@ -517,7 +517,7 @@
   },
   {
     "name": "Computered",
-    "image": "images/no_image.png",
+    "image": "images/computered.png",
     "value": 550,
     "source": "2nd Item Drop"
   },
