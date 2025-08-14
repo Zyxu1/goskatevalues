@@ -7,8 +7,13 @@ const searchInput = document.getElementById('search');
 async function loadItems() {
   const res = await fetch('items.json');
   items = await res.json();
-  renderItems(items);
+
+  // Set default sort option
+  sortSelect.value = 'value-desc';
+
+  updateDisplay(); // Applies default sort and renders items
 }
+
 
 // Render cards
 function renderItems(data) {
