@@ -3,12 +3,12 @@
     "name": "Bees",
     "image": "images/bees.png",
     "value": 15,
-    "source": "Paxk (1st Collection)",
+    "source": "Paxx (1st Collection)"
   },
   {
     "name": "Wicked",
     "image": "images/wicked.png",
     "value": 25000,
-    "source": "Printshop (2nd Collection)",
+    "source": "Printshop (2nd Collection)"
   }
 ]
