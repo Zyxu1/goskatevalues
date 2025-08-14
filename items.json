@@ -1,14 +1,116 @@
 ﻿[
   {
-    "name": "Bees",
-    "image": "images/bees.png",
-    "value": 15,
-    "source": "Paxx (1st Collection)"
+    "name": "Mothlady",
+    "image": "images/-----.png",
+    "value": 65,
+    "source": "Printshop (1st Collection)"
   },
   {
-    "name": "Wicked",
-    "image": "images/wicked.png",
-    "value": 25000,
-    "source": "Printshop (2nd Collection)"
+    "name": "Lowkey",
+    "image": "images/-----.png",
+    "value": 75,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Bugs Basics",
+    "image": "images/-----.png",
+    "value": 65,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Cherry Basics",
+    "image": "images/-----.png",
+    "value": 75,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Hot Spring",
+    "image": "images/-----.png",
+    "value": 150,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Yellow Strip",
+    "image": "images/-----.png",
+    "value": 150,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Bug Purples",
+    "image": "images/-----.png",
+    "value": 150,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Cherry Blacks",
+    "image": "images/-----.png",
+    "value": 300,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Green Calx",
+    "image": "images/-----.png",
+    "value": 400,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Twins",
+    "image": "images/-----.png",
+    "value": 500,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "God Dog",
+    "image": "images/-----.png",
+    "value": 450,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Bug Greens",
+    "image": "images/-----.png",
+    "value": 250,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Cherry Swirl",
+    "image": "images/-----.png",
+    "value": 400,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Death Squad",
+    "image": "images/-----.png",
+    "value": 1000,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Pink Tie Dye",
+    "image": "images/-----.png",
+    "value": 1600,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Bug Webbed",
+    "image": "images/-----.png",
+    "value": 1500,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Cherry Blues",
+    "image": "images/-----.png",
+    "value": 1000,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "Masked",
+    "image": "images/-----.png",
+    "value": 40000,
+    "source": "Printshop (1st Collection)"
+  },
+  {
+    "name": "name",
+    "image": "images/-----.png",
+    "value": 1,
+    "source": "test_item"
   }
 ]
