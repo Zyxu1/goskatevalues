@@ -5,6 +5,22 @@
   margin: 0;
 }
 
+/* Fixed red message bar */
+#top-message-bar {
+  background-color: #d10000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: fixed;  /* Fix the position */
+  top: 0;           /* Stay at the top */
+  left: 0;          /* Full width */
+  width: 100%;      /* Ensure full width */
+  z-index: 1000;    /* Stay on top */
+}
+
+/* Fixed search bar */
 header {
   padding: 1rem;
   background: #222;
@@ -13,6 +29,11 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  position: fixed;  /* Fix the header position */
+  top: 50px;        /* Space it below the red bar */
+  left: 0;
+  width: 100%;
+  z-index: 999;     /* Just below the message bar */
 }
 
 .search-container {
@@ -92,7 +113,7 @@ header {
 }
 
 .card h2 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin: 10px 0 5px;
 }
 
@@ -108,11 +129,7 @@ header {
   color: #fff;
 }
 
-#top-message-bar {
-  background-color: #d10000;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Add space for fixed bars */
+body {
+  padding-top: 130px; /* Adjust based on the height of the fixed bars */
 }
