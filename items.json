@@ -25,7 +25,7 @@
   },
   {
     "name": "Cherry Basics",
-    "image": "images/no_image.png",
+    "image": "images/cherrybasics.png",
     "value": 75,
     "source": "Printshop (1st Collection)"
   },
@@ -133,7 +133,7 @@
   },
   {
     "name": "Skidded",
-    "image": "images/no_image.png",
+    "image": "images/skidded.png",
     "value": 75,
     "source": "Greenhouse (1st Collection)"
   },
@@ -223,7 +223,7 @@
   },
   {
     "name": "Bees",
-    "image": "images/no_image.png",
+    "image": "images/bees.png",
     "value": 15,
     "source": "Paxk (1st Collection)"
   },
@@ -337,7 +337,7 @@
   },
   {
     "name": "Marley",
-    "image": "images/no_image.png",
+    "image": "images/marley.png",
     "value": 15,
     "source": "Printshop (2nd Collection)"
   },
@@ -349,7 +349,7 @@
   },
   {
     "name": "Kitty",
-    "image": "images/no_image.png",
+    "image": "images/kitty.png",
     "value": 15,
     "source": "Printshop (2nd Collection)"
   },
@@ -361,19 +361,19 @@
   },
   {
     "name": "Biggie",
-    "image": "images/no_image.png",
+    "image": "images/biggie.png",
     "value": 50,
     "source": "Printshop (2nd Collection)"
   },
   {
     "name": "Big Head",
-    "image": "images/no_image.png",
+    "image": "images/bighead.png",
     "value": 75,
     "source": "Printshop (2nd Collection)"
   },
   {
     "name": "Chill",
-    "image": "images/no_image.png",
+    "image": "images/chill.png",
     "value": 50,
     "source": "Printshop (2nd Collection)"
   },
