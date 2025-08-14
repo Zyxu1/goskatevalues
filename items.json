@@ -109,7 +109,7 @@
   },
   {
     "name": "Masked",
-    "image": "images/no_image.png",
+    "image": "images/masked.png",
     "value": 40000,
     "source": "Printshop (1st Collection)"
   },
@@ -217,7 +217,7 @@
   },
   {
     "name": "Postal",
-    "image": "images/no_image.png",
+    "image": "images/postal.png",
     "value": 47000,
     "source": "Greenhouse (1st Collection)"
   },
@@ -325,7 +325,7 @@
   },
   {
     "name": "Amphibian",
-    "image": "images/no_image.png",
+    "image": "images/amphi.png",
     "value": 23000,
     "source": "Paxk (1st Collection)"
   },
@@ -433,7 +433,7 @@
   },
   {
     "name": "Wicked",
-    "image": "images/no_image.png",
+    "image": "images/wicked.png",
     "value": 27000,
     "source": "Printshop (2nd Collection)"
   },
@@ -535,26 +535,33 @@
   },
   {
     "name": "Dom's Deck",
-    "image": "images/no_image.png",
-    "value": "x",
+    "image": "images/doms_deck.png",
+    "value": "X",
     "source": "Special Item"
   },
   {
     "name": "Dom's Wheels",
-    "image": "images/no_image.png",
-    "value": "x",
+    "image": "images/doms_wheels.png",
+    "value": "X",
     "source": "Special Item"
   },
   {
     "name": "Switch's Deck",
-    "image": "images/no_image.png",
-    "value": "x",
+    "image": "images/switchs_deck.png",
+    "value": "X",
     "source": "Special Item"
   },
   {
     "name": "Switch's Grip",
-    "image": "images/no_image.png",
-    "value": "x",
+    "image": "images/switchs_grip.png",
+    "value": "X",
+    "source": "Special Item"
+  },
+  {
+    "name": "Datacenter",
+    "image": "images/datacenter.png",
+    "value": "X",
     "source": "Special Item"
   }
+  
 ]
