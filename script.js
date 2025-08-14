@@ -1,6 +1,7 @@
 ﻿let items = [];
 const gallery = document.getElementById('gallery');
 const sortSelect = document.getElementById('sort');
+const searchInput = document.getElementById('search');
 
 // Load items from JSON
 async function loadItems() {
@@ -39,10 +40,24 @@ function sortItems(method) {
   return sorted;
 }
 
-// Event listener for sorting
-sortSelect.addEventListener('change', () => {
-  renderItems(sortItems(sortSelect.value));
-});
+// Filter items by search query
+function filterItemsBySearch(query) {
+  return items.filter(item =>
+    item.name.toLowerCase().includes(query.toLowerCase())
+  );
+}
 
-// Load items on page load
+// Update display based on sort and search
+function updateDisplay() {
+  const query = searchInput.value.trim().toLowerCase();
+  const sorted = sortItems(sortSelect.value);
+  const filtered = query ? sorted.filter(item => item.name.toLowerCase().includes(query)) : sorted;
+  renderItems(filtered);
+}
+
+// Event listeners
+sortSelect.addEventListener('change', updateDisplay);
+searchInput.addEventListener('input', updateDisplay);
+
+// Initial load
 loadItems();

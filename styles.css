@@ -11,15 +11,51 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.controls select {
-  margin-left: 10px;
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: #fff;
+  width: 60%;
+}
+
+#search::placeholder {
+  color: #aaa;
+}
+
+#sort {
+  padding: 8px;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  border: none;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* More consistent card width */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 15px;
   padding: 15px;
 }
@@ -32,19 +68,17 @@ header {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 340px; /* Fixed card height for uniformity */
 }
 
 .card img {
   width: 100%;
-  aspect-ratio: 1 / 1;      /* Force square */
-  object-fit: cover;        /* Crop image to fill square */
-  border-radius: 6px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .card h2 {
-  font-size: 1.3rem; /* Bigger board name */
+  font-size: 1.3rem;
   margin: 10px 0 5px;
 }
 
