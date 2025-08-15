@@ -50,7 +50,7 @@
   {
     "name": "Cherry Blacks",
     "image": "images/cherryblacks.png",
-    "value": 300,
+    "value": 425,
     "source": "Printshop (1st Collection)"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Pink Tie Dye",
     "image": "images/pinktiedye.png",
-    "value": 1600,
+    "value": 2000,
     "source": "Printshop (1st Collection)"
   },
   {
@@ -110,7 +110,7 @@
   {
     "name": "Masked",
     "image": "images/masked.png",
-    "value": 40000,
+    "value": 70000,
     "source": "Printshop (1st Collection)"
   },
   {
@@ -164,7 +164,7 @@
   {
     "name": "Violet Inkblot",
     "image": "images/violetink.png",
-    "value": 500,
+    "value": 560,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -194,7 +194,7 @@
   {
     "name": "Catz",
     "image": "images/catz.png",
-    "value": 1000,
+    "value": 1300,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -218,7 +218,7 @@
   {
     "name": "Postal",
     "image": "images/postal.png",
-    "value": 47000,
+    "value": 77000,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -326,7 +326,7 @@
   {
     "name": "Amphibian",
     "image": "images/amphi.png",
-    "value": 23000,
+    "value": 25000,
     "source": "Paxk (1st Collection)"
   },
   {
@@ -416,7 +416,7 @@
   {
     "name": "Barbed",
     "image": "images/barbed.png",
-    "value": 550,
+    "value": 575,
     "source": "Printshop (2nd Collection)"
   },
   {
@@ -434,7 +434,7 @@
   {
     "name": "Wicked",
     "image": "images/wicked.png",
-    "value": 27000,
+    "value": 29000,
     "source": "Printshop (2nd Collection)"
   },
   {
@@ -458,13 +458,13 @@
   {
     "name": "Eli",
     "image": "images/eli.png",
-    "value": 450,
+    "value": 525,
     "source": "1st Item Drop"
   },
   {
     "name": "Tunes",
     "image": "images/tunes.png",
-    "value": 750,
+    "value": 825,
     "source": "1st Item Drop"
   },
   {
@@ -482,13 +482,13 @@
   {
     "name": "Dancing",
     "image": "images/dancing.png",
-    "value": 1000,
+    "value": 1100,
     "source": "1st Item Drop"
   },
   {
     "name": "Painted Black",
     "image": "images/paintedblack.png",
-    "value": 300,
+    "value": 325,
     "source": "2nd Item Drop"
   },
   {
@@ -530,7 +530,7 @@
   {
     "name": "Metro",
     "image": "images/metro.png",
-    "value": 800,
+    "value": 900,
     "source": "2nd Item Drop"
   },
   {
