@@ -92,13 +92,13 @@
   {
     "name": "Pink Tie Dye",
     "image": "images/pinktiedye.png",
-    "value": 2000,
+    "value": 2100,
     "source": "Printshop (1st Collection)"
   },
   {
     "name": "Bug Webbed",
     "image": "images/bugweb.png",
-    "value": 1500,
+    "value": 1600,
     "source": "Printshop (1st Collection)"
   },
   {
@@ -110,7 +110,7 @@
   {
     "name": "Masked",
     "image": "images/masked.png",
-    "value": 70000,
+    "value": 95000,
     "source": "Printshop (1st Collection)"
   },
   {
@@ -140,7 +140,7 @@
   {
     "name": "Pieced",
     "image": "images/pieced.png",
-    "value": 150,
+    "value": 210,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -152,7 +152,7 @@
   {
     "name": "Bronzed",
     "image": "images/bronzed.png",
-    "value": 200,
+    "value": 300,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -176,7 +176,7 @@
   {
     "name": "Thrown",
     "image": "images/thrown.png",
-    "value": 500,
+    "value": 525,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -188,7 +188,7 @@
   {
     "name": "Pinkys",
     "image": "images/pinkys.png",
-    "value": 450,
+    "value": 475,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -218,7 +218,7 @@
   {
     "name": "Postal",
     "image": "images/postal.png",
-    "value": 77000,
+    "value": 125000,
     "source": "Greenhouse (1st Collection)"
   },
   {
@@ -302,7 +302,7 @@
   {
     "name": "Warped Dance",
     "image": "images/warpeddance.png",
-    "value": 550,
+    "value": 500,
     "source": "Paxk (1st Collection)"
   },
   {
